@@ -1,0 +1,72 @@
+/* style.css */
+
+/* CSS resets */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    /* outline: 1px red solid; */
+}
+
+/* VIEWPORT */
+
+body {
+    font-family: monospace;
+    background-color: rgb(211, 193, 167);
+}
+
+/* NAVBAR */
+.navbar_card {
+    background-color: rgb(175, 161, 142);
+    border-bottom: 7px rgb(133, 117, 82) solid;
+    border-style: inset;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    display: flex;
+}
+
+ul {
+    padding: 0 0 0 5px;
+}
+
+.navbar li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.navbar_title {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(211, 193, 167);
+    border-radius: 7%;
+    padding: 4px 8px;
+    margin: 0 12px 0 0;
+}
+
+.navbar_child {
+    border: 2px solid rgb(102, 95, 85);
+    border-radius: 2%;
+    background-color: rgb(102, 95, 85);
+    border-radius: 12%;
+    padding: 4px 15px;
+    margin: ;
+}
+
+/*  */
+
+
+
+
