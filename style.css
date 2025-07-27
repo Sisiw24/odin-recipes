@@ -8,8 +8,17 @@ body, html {
     box-sizing: border-box;
 }
 
+ul {
+    padding: 0;
+}
+
 body, html {
     /* outline: 1px red solid; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* VIEWPORT */
@@ -23,15 +32,19 @@ body {
 .main_container {
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
+
+/* NAVBAR */
 
 .nav_container {
     background-color: red;
     flex-grow: 0.2;
     display: flex;
     flex-direction: column;
-    height: 50vh;
-    padding: 0px 5px 0px 0px;
+    height: 100;
+    padding: 0px 4px 0px 0px;
+    overflow: hidden;
 }
 
 .nav_container .navbar_card {
@@ -42,7 +55,21 @@ body {
     display: flex;
     background-color: darkred;
     flex-grow: 1;
+    justify-content: center;
+    padding: 10px;
 }
+
+
+.navbar_child {
+    list-style: none;
+    border-radius: 5%;
+    background: lightblue;
+    width: 100px;
+    align-self: flex-start;
+
+}
+
+/* END OF NAVBAR */
 
 .base_container {
     background: brown;
